@@ -25,7 +25,25 @@
 
 .principal {
   background-color: lightcoral;
-  margin-top: 2%;
+}
+
+.foto {
+  width: 15%;
+  border-radius: 50%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-style: solid;
+  border-color: white;
+  padding: 1%;
+}
+
+.box1 {
+  margin-top: 10%;
+  margin-right: 3%;
+}
+
+.texto {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 /*# sourceMappingURL=style.css.map */
