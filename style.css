@@ -84,8 +84,21 @@
   border-radius: 5rem;
 }
 
+.icon1, .icon2 {
+  width: 5%;
+}
+
 .icon1 {
-  width: 7%;
+  position: relative;
+  top: 0px;
+  left: 300px;
+  margin-bottom: 10%;
+}
+
+.icon2 {
+  position: relative;
+  top: 10px;
+  left: 300px;
 }
 
 /*# sourceMappingURL=style.css.map */
