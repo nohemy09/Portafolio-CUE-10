@@ -51,6 +51,22 @@
   margin-top: 2%;
 }
 
+.imagen {
+  width: 15%;
+  border-style: solid;
+  border-color: lightcoral;
+  background-color: lightcoral;
+  padding: 0.1%;
+  border-radius: 10%;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.parrafo {
+  margin-left: 13%;
+  margin-right: 13%;
+}
+
 .header {
   background-color: lightcoral;
   padding: 5.5%;
