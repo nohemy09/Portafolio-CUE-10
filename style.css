@@ -47,6 +47,10 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+.texto1 {
+  width: 200px;
+}
+
 .header {
   background-color: lightcoral;
   padding: 5.5%;
