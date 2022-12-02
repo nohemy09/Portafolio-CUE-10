@@ -115,11 +115,17 @@
   background: crimson;
   border: none;
   opacity: 10;
-  margin-left: 15%;
+  margin: 0%;
 }
 
-.box-2 {
-  margin-left: 15%;
+.p1 {
+  margin-right: 20.9rem;
+  margin-bottom: 0%;
+  padding: 0%;
+}
+
+.p {
+  margin-bottom: 0%;
 }
 
 .header {
