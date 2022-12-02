@@ -150,6 +150,10 @@
   width: 18rem;
 }
 
+.card-link {
+  text-decoration: none;
+}
+
 .header {
   background-color: lightcoral;
   padding: 5.5%;
