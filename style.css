@@ -146,6 +146,11 @@
   width: 18rem;
 }
 
+#links {
+  width: 13%;
+  margin-left: 20%;
+}
+
 .card-link {
   text-decoration: none;
 }
@@ -157,7 +162,7 @@
   width: 100%;
 }
 .caja-1__barras > *:not(:last-child) {
-  margin-right: 2rem;
+  margin-right: 7rem;
 }
 
 /*# sourceMappingURL=style.css.map */
