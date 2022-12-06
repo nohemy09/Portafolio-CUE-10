@@ -1,34 +1,35 @@
-.navbar {
+.navbar{
   background-color: lightcoral;
 }
-
-.name {
+.name{
   margin-top: 1px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
-
-.lista {
+.lista{
   display: flex;
   justify-content: space-around;
   margin-left: 16rem;
   margin-right: 10rem;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif; 
 }
 
-.btn {
+.btn{
   border-radius: 5rem;
 }
 
-.img {
+.img{
   width: 3%;
   margin-bottom: 5px;
+
 }
 
-.principal {
+.principal{
   background-color: lightcoral;
+    
 }
 
-.foto {
+.foto{
   width: 13%;
   border-radius: 50%;
   margin-top: 5%;
@@ -38,20 +39,20 @@
   padding: 0.5%;
 }
 
-.box1 {
+.box1{
   margin-top: 10%;
   margin-right: 3%;
 }
 
-.texto {
-  font-family: Georgia, "Times New Roman", Times, serif;
+.texto{
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-.texto1 {
+.texto1{
   margin-top: 2%;
 }
 
-.imagen {
+.imagen{
   width: 17%;
   border-style: solid;
   border-color: lightcoral;
@@ -59,110 +60,115 @@
   padding: 0.1%;
   border-radius: 10%;
   margin-left: 4%;
+    
 }
 
-.parrafo {
+.parrafo{
   margin-left: 10%;
   margin-right: 10%;
 }
 
-.caja {
+.caja{
   margin-top: 3%;
   margin-left: 5%;
 }
-
-.caja1 {
+.caja1{
   margin-left: 30px;
 }
 
-.ul {
+.ul{
   padding: 0%;
 }
 
-.ol {
+.ol{
   margin-top: 1rem;
   margin-bottom: 1.9rem;
 }
 
-.titulo {
+.titulo{
   margin-bottom: 1%;
 }
 
-.titulo1 {
+.titulo1{
   margin-right: 6%;
   margin-top: 2%;
 }
 
-.linea {
+.linea{
   background: rgb(255, 0, 102);
-  background: linear-gradient(0deg, rgb(249, 49, 129) 0%, rgb(240, 128, 128) 100%);
+  background: linear-gradient(0deg, rgba(249,49,129,1) 0%, rgba(240,128,128,1) 100%);
   height: 5px;
   border-style: none;
   opacity: 10;
 }
 
-.box-1 {
+.box-1{
   margin-top: 1%;
 }
 
-.line {
+.line{
   width: 100%;
   height: 20px;
   background: crimson;
-  border: none;
+  border: none; 
   opacity: 10;
   margin: 0%;
 }
 
-.p1 {
+.p1{
   margin-right: 20.9rem;
   margin-bottom: 0%;
   padding: 0%;
 }
 
-.p {
+.p{
   margin-bottom: 0%;
 }
 
-.first {
+.first{
   margin-bottom: 2%;
 }
 
-.p-2 {
+.p-2{
   margin-bottom: 1rem;
 }
 
-.box-g {
+.box-g{
   margin-top: 2%;
 }
 
-.titulo-a {
+.titulo-a{
   margin-top: 2%;
 }
 
-.card {
+.card{
   margin-top: 2%;
   margin-left: 10%;
   width: 18rem;
+  
 }
-
-#links {
+#links{
   width: 13%;
   margin-left: 20%;
 }
 
-.card-link {
-  text-decoration: none;
+
+
+.card-link{
+ text-decoration: none;
 }
 
-.caja-1__skills {
-  margin-top: 3%;
-}
-.caja-1__barras {
-  width: 100%;
-}
-.caja-1__barras > *:not(:last-child) {
-  margin-right: 7rem;
-}
+.caja-1 {
+  &__skills {
+    margin-top: 3%;
+  }
 
-/*# sourceMappingURL=style.css.map */
+  &__barras {
+    width: 100%;
+  }
+
+  &__barras > *:not(:last-child) {
+    margin-right: 7rem;
+    
+  }
+}
