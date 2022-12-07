@@ -98,6 +98,19 @@
 .caja-1__barras {
   width: 100%;
 }
+.caja-1__barras__line {
+  width: 100%;
+  height: 20px;
+  background: crimson;
+  border: none;
+  opacity: 10;
+  margin: 0%;
+}
+.caja-1__barras__p1 {
+  margin-right: 20.9rem;
+  margin-bottom: 0%;
+  padding: 0%;
+}
 .caja-1__barras > *:not(:last-child) {
   margin-right: 7rem;
 }
@@ -130,37 +143,20 @@
   margin-top: 2%;
   text-align: center;
 }
-
-.line {
-  width: 100%;
-  height: 20px;
-  background: crimson;
-  border: none;
-  opacity: 10;
-  margin: 0%;
+.caja-2__card {
+  width: 38rem;
+  margin: 16px;
 }
-
-.p1 {
-  margin-right: 20.9rem;
-  margin-bottom: 0%;
-  padding: 0%;
+.caja-2__card__card-img {
+  width: 90%;
+  height: 235px;
 }
-
-.p {
-  margin-bottom: 0%;
+.caja-2__card-body {
+  margin-top: 15px;
 }
-
-.titulo-a {
-  margin-top: 2%;
-}
-
-#links {
+.caja-2__links {
   width: 13%;
   margin-left: 20%;
-}
-
-.card-link {
-  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

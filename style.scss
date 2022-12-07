@@ -107,6 +107,19 @@
   }
   &__barras{
     width: 100%;
+    &__line{
+      width: 100%;
+      height: 20px;
+      background: crimson;
+      border: none;
+      opacity: 10;
+      margin: 0%;
+    }
+    &__p1{
+      margin-right: 20.9rem;
+      margin-bottom: 0%;
+      padding: 0%;
+    }
   }
   &__barras > *:not(:last-child) {
     margin-right: 7rem;
@@ -118,6 +131,7 @@
     border-style: none;
     opacity: 10;
   }
+  
 }
 
 .caja-3{
@@ -144,38 +158,23 @@
     margin-top: 2%;
     text-align: center;
   }
-
-}
-.line {
-  width: 100%;
-  height: 20px;
-  background: crimson;
-  border: none;
-  opacity: 10;
-  margin: 0%;
-}
-
-.p1 {
-  margin-right: 20.9rem;
-  margin-bottom: 0%;
-  padding: 0%;
-}
-
-.p {
-  margin-bottom: 0%;
+  &__card{
+   width: 38rem;
+   margin: 16px;
+   &__card-img{
+    width: 90%;
+    height: 235px;
+   }
+  }
+  &__card-body{
+   margin-top: 15px;
+  }
+  &__links{
+    width: 13%;
+    margin-left: 20%;
+  }
 }
 
 
-.titulo-a {
-  margin-top: 2%;
-}
 
 
-#links {
-  width: 13%;
-  margin-left: 20%;
-}
-
-.card-link {
-  text-decoration: none;
-}
