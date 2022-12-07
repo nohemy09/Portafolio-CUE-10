@@ -139,6 +139,9 @@
   opacity: 10;
 }
 
+.caja-2 {
+  margin-left: 5%;
+}
 .caja-2__titulo-a {
   margin-top: 2%;
   text-align: center;
@@ -157,6 +160,40 @@
 .caja-2__links {
   width: 13%;
   margin-left: 20%;
+}
+
+.footer {
+  background-color: lightcoral;
+  margin-top: 3%;
+}
+.footer__div {
+  margin-top: 3%;
+}
+.footer__img {
+  width: 4%;
+  margin-bottom: 5px;
+}
+.footer__box1__titulo {
+  margin-left: 2%;
+  margin-bottom: 3%;
+}
+.footer__box1__forma {
+  margin-left: 2%;
+}
+.footer__box1__forma__input {
+  width: 22%;
+  border-style: none;
+  border-radius: 5%;
+  margin-bottom: 15px;
+}
+.footer__box1__forma__btn {
+  border-style: none;
+  width: 10%;
+  margin-top: 1%;
+  margin-left: 16.5%;
+}
+.footer__caja__img {
+  width: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */
