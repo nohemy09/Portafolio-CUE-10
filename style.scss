@@ -37,7 +37,7 @@
     font-family: Georgia, "Times New Roman", Times, serif;
   }
   &__foto{
-    width: 13%;
+    width: 13rem;
     border-radius: 50%;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -62,17 +62,18 @@
       margin-left: 5%;
     }
     &__imagen{
-      width: 17%;
+      width: 13rem;
       border-style: solid;
       border-color: lightcoral;
       background-color: lightcoral;
       padding: 0.1%;
       border-radius: 10%;
       margin-left: 4%;
+      margin-right: 2rem;
     }
   }
   &__caja1{
-    margin-left: 50px;
+    margin-left: 50%;
     &__titulo{
       margin-bottom: 1%;
       margin-left: 5%;
@@ -265,23 +266,39 @@
   .menu{
     &__section{
       &__imagen{
-       width: 10rem;
+       width: 10.5rem;
        height: 250px;
+       position: relative;
+       left: 5rem;
+      }
+      &__caja1{
+        display: block;
+        position: relative;
+        top: 15.5rem;
+        right: 12.5rem;
+      }
+      &__titulo1{
+        color: transparent;
       }
     }
-    %__caja{
-      display: block;
-    }
-    &__principal{
+    
+  } 
+}
+
+
+.caja-1{
+  &__barras{
+   display: block;
+  }
+}
+
+.caja-3{
+  &__first{
+    &__caja{
       
     }
   }
- 
-  
-
-
-
-
-
 }
+
+
 
