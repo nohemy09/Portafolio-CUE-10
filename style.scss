@@ -21,6 +21,10 @@
       background-color: lightcoral;
     }
   }
+  &__1{
+    text-decoration: none;
+    margin-right: 1rem;
+  }
 }
 
 .header{
@@ -38,7 +42,7 @@
     margin-top: 5%;
     margin-bottom: 5%;
     border-style: solid;
-    border-color: white;
+    border-color: crimson;
     padding: 0.5%;
   }
 
@@ -213,5 +217,71 @@
         width: 2.8rem;
       } 
     }
+}
+
+@media screen and (max-width: 425px){
+
+  .navbar{
+    &__img{
+      width: 10%;
+    }
+    &__name{
+      position: relative;
+      right: 17rem;
+    }
+    &__lista{
+      margin: 0;
+      position: relative;
+      left: 16rem; 
+    }
+    &__1{
+      text-decoration: none;
+      margin-right: 0;
+    }
+    &__principal{
+      position: relative;
+      left: 16rem;
+    }
+  }
+
+  .header{
+    &__foto{
+      position: relative;
+      right: 17rem;
+      bottom: 10rem;
+      width: 8.5rem;
+      height: 150px;
+    }
+    &__box1{
+      margin-right: 0;
+      text-align: center;
+    }
+    &__texto{
+      color: black;
+      width: 20rem;
+    }
+  }
+
+  .menu{
+    &__section{
+      &__imagen{
+       width: 10rem;
+       height: 250px;
+      }
+    }
+    %__caja{
+      display: block;
+    }
+    &__principal{
+      
+    }
+  }
+ 
+  
+
+
+
+
+
 }
 

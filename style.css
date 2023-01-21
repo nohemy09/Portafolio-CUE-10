@@ -20,6 +20,10 @@
   border-radius: 5rem;
   background-color: lightcoral;
 }
+.navbar__1 {
+  text-decoration: none;
+  margin-right: 1rem;
+}
 
 .header {
   background-color: lightcoral;
@@ -37,7 +41,7 @@
   margin-top: 5%;
   margin-bottom: 5%;
   border-style: solid;
-  border-color: white;
+  border-color: crimson;
   padding: 0.5%;
 }
 
@@ -195,6 +199,48 @@
 }
 .footer__caja__img {
   width: 2.8rem;
+}
+
+@media screen and (max-width: 425px) {
+  .navbar__img {
+    width: 10%;
+  }
+  .navbar__name {
+    position: relative;
+    right: 17rem;
+  }
+  .navbar__lista {
+    margin: 0;
+    position: relative;
+    left: 16rem;
+  }
+  .navbar__1 {
+    text-decoration: none;
+    margin-right: 0;
+  }
+  .navbar__principal {
+    position: relative;
+    left: 16rem;
+  }
+  .header__foto {
+    position: relative;
+    right: 17rem;
+    bottom: 10rem;
+    width: 8.5rem;
+    height: 150px;
+  }
+  .header__box1 {
+    margin-right: 0;
+    text-align: center;
+  }
+  .header__texto {
+    color: black;
+    width: 20rem;
+  }
+  .menu__section__imagen {
+    width: 10rem;
+    height: 250px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
